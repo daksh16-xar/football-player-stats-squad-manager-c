@@ -17,8 +17,7 @@ This project fulfills the practical evaluation requirements for the **Computer P
 ---
 
 ## 📋 Project Documentation
-📄 **[View the Full 15-Page Project Report (PDF)](https://githubusercontent.com)**
-
+📄 **[View the Full 15-Page Project Report (PDF)](./Football_Player_Stats_Squad_Manager_Report_261031_064808.pdf)**
 
 ---
 
@@ -48,8 +47,8 @@ Whenever records are registered or updated, metrics are automatically re-calcula
 ## 🛠️ Data Structure Schema (`typedef struct`)
 The program encapsulates heterogeneous profiles inside a single contiguous 100-byte block:
 * `int jerseyNo` — Unique identifier key bounded between $1 \le \text{jerseyNo} \le 99$
-* `char name` — Full name string array supporting whitespace inputs via `fgets`
-* `char position` — Tactical role classifications (`Forward`/`Midfielder`/`Defender`/`Goalkeeper`)
+* `char name[50]` — Full name string array supporting whitespace inputs via `fgets`
+* `char position[20]` — Tactical role classifications (`Forward`/`Midfielder`/`Defender`/`Goalkeeper`)
 * `int age` — Chronological age parameter (validated for $\ge 15$)
 * `int matches` / `int goals` / `int assists` — Numerical sports metric trackers
 * `float goalsPerMatch` / `float rating` — Derived system variables
@@ -69,3 +68,5 @@ gcc -Wall -Wextra football_squad_manager.c -o football_squad_manager
 # 2. Launch the menu application loop
 ./football_squad_manager
 ```
+
+---
