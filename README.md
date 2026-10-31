@@ -17,7 +17,7 @@ This project fulfills the practical evaluation requirements for the **Computer P
 ---
 
 ## 📋 Project Documentation
-📄 **[View the Full 15-Page Project Report (PDF)](./football-player-stats-squad-manager-c)**
+📄 **[View the Full 15-Page Project Report (PDF)](./https://github.com/daksh16-xar/football-player-stats-squad-manager-c/blob/main/Football_Player_Stats_Squad_Manager_Report_261031_100430.pdf)**
 
 ---
 
